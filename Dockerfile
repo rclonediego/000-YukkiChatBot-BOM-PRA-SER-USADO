@@ -1,5 +1,11 @@
-FROM linuxserver
+FROM python:3.9-buster
+
+WORKDIR /code
+
+COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-CMD python3 main.py
+COPY . .
+
+CMD [ "python3", "./main.py" ]
