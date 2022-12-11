@@ -4,4 +4,3 @@ motor
 pyrogram==1.4.16
 python-dotenv
 tgcrypto
-pip==22.3.1
