@@ -1,4 +1,4 @@
-FROM pifuant/linuxserver
+FROM linuxserver
 
 RUN pip install -r requirements.txt
 
